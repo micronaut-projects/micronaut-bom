@@ -78,6 +78,8 @@ micronautBom {
         dependencies.add("io.micrometer:concurrency-tests:1.13.3")
 
         acceptedLibraryRegressions.add("micronaut-oraclecloud-bmc-applicationmigration")
+        acceptedLibraryRegressions.add("kafka")
+        acceptedVersionRegressions.add("kafka-compat")
     }
 }
 
