@@ -80,6 +80,10 @@ micronautBom {
         acceptedLibraryRegressions.add("micronaut-oraclecloud-bmc-applicationmigration")
         acceptedLibraryRegressions.add("kafka")
         acceptedVersionRegressions.add("kafka-compat")
+
+        // Removed reactor-netty-http removed in https://github.com/micronaut-projects/micronaut-r2dbc/commit/ae5f341d26b89800b45caffd1494771948584588
+        acceptedVersionRegressions.add("reactor-netty")
+        acceptedLibraryRegressions.add("reactor-netty-http")
     }
 }
 
